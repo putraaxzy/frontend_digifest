@@ -14,7 +14,11 @@ function SearchBar() {
   return (
     <div className="searchBar">
       <form>
-        <input type="text" name="location" placeholder="Mulai Cari Pondok" />
+        <input
+          type="text"
+          name="location"
+          placeholder="Mulai Cari Pondok Pesantren!"
+        />
         <button>
           <img src="/search.png" alt="Search" className="search-icon" />
         </button>
