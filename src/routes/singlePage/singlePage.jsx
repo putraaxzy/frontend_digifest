@@ -2,29 +2,34 @@ import "./singlePage.scss";
 import Slider from "../../components/slider/Slider";
 import Map from "../../components/map/Map";
 import { singlePostData, userData } from "../../lib/dummydata";
+import { useParams } from "react-router-dom";
 
 function SinglePage() {
+  let { ids } = useParams();
+  let dataDetail = singlePostData.find(({ id }) => id == ids);
+  let userDetail = userData.find(({ id }) => id == ids);
+  console.log(dataDetail);
   return (
     <div className="singlePage">
       <div className="details">
         <div className="wrapper">
-          <Slider images={singlePostData.images} />
+          <Slider images={dataDetail.images} />
           <div className="info">
             <div className="top">
               <div className="post">
-                <h1>{singlePostData.title}</h1>
+                <h1>{dataDetail.title}</h1>
                 <div className="address">
                   <img src="/pin.png" alt="" />
-                  <span>{singlePostData.address}</span>
+                  <span>{dataDetail.address}</span>
                 </div>
-                <div className="price">{singlePostData.price}</div>
+                <div className="price">{dataDetail.price}</div>
               </div>
               <div className="user">
-                <img src={userData.img} alt="" />
-                <span>{userData.name}</span>
+                <img src={userDetail.img} alt="" />
+                <span>{userDetail.name}</span>
               </div>
             </div>
-            <div className="bottom">{singlePostData.description}</div>
+            <div className="bottom">{dataDetail.description}</div>
           </div>
         </div>
       </div>
@@ -95,7 +100,7 @@ function SinglePage() {
           </div>
           <p className="title">Lokasi</p>
           <div className="mapContainer">
-            <Map items={[singlePostData]} />
+            <Map items={[dataDetail]} />
           </div>
           <div className="buttons">
             <button>
