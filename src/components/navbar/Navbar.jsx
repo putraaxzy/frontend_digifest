@@ -13,7 +13,7 @@ function Navbar() {
       <div className="left">
         <a href="/" className="logo">
           <img src="/sc.png" alt="" />
-          <span>CariPondok.Id</span>
+          <span>CariPesantren.Id</span>
         </a>
         <a href="/">Home</a>
         <a href="/">About</a>
