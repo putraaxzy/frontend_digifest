@@ -1,5 +1,4 @@
 import SearchBar from "../../components/searchBar/SearchBar";
-import DonationPage from "../../donasi/DonationPage";
 import "./homePage.scss";
 
 function HomePage() {
@@ -11,7 +10,7 @@ function HomePage() {
             Temukan Pilihan Terbaik, Jelajahi Pondok Pesantren Bersama Kami!
           </h4>
           <p>
-            <h3 className="web">carisantri.id</h3>
+            <h3 className="web">caripesantren.id</h3>
             Website yang menyediakan informasi terperinci dan <br />
             terverifikasi tentang pondok pesantren di <b>Indonesia!</b>
           </p>

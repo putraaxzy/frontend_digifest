@@ -70,8 +70,8 @@ function SinglePage() {
               <span>2 beds</span>
             </div>
             <div className="size">
-              <img src="/bath.png" alt="" />
-              <span>1 bathroom</span>
+              <img src="/usr.png" alt="" />
+              <span>39k santri</span>
             </div>
           </div>
           <p className="title">Nearby Places</p>

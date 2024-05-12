@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
-import DonationPage from "../../donasi/DonationPage";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
