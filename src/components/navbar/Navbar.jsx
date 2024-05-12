@@ -1,34 +1,36 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
+import DonationPage from "../../donasi/DonationPage";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
 
   const user = true;
+
   return (
     <nav>
       <div className="left">
         <a href="/" className="logo">
-          <img src="/logo.png" alt="" />
-          <span>LamaEstate</span>
+          <img src="/sc.png" alt="" />
+          <span>CariPondok.Id</span>
         </a>
         <a href="/">Home</a>
         <a href="/">About</a>
         <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <Link to="/donasi">Donasi</Link>
       </div>
       <div className="right">
         {user ? (
           <div className="user">
             <img
-              src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="https://raw.githubusercontent.com/putraaxzy/lomba_digifest/main/IMG-20240511-WA0034.jpg"
               alt=""
             />
-            <span>John Doe</span>
+            <span>Agus Sutrasno</span>
             <Link to="/profile" className="profile">
               <div className="notification">3</div>
-              <span>Profile</span>
+              <span>Profil</span>
             </Link>
           </div>
         ) : (

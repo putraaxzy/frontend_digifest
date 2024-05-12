@@ -1,4 +1,5 @@
 import SearchBar from "../../components/searchBar/SearchBar";
+import DonationPage from "../../donasi/DonationPage";
 import "./homePage.scss";
 
 function HomePage() {
@@ -6,32 +7,33 @@ function HomePage() {
     <div className="homePage">
       <div className="textContainer">
         <div className="wrapper">
-          <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
+          <h4 className="title">
+            Temukan Pilihan Terbaik, Jelajahi Pondok Pesantren Bersama Kami!
+          </h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            explicabo suscipit cum eius, iure est nulla animi consequatur
-            facilis id pariatur fugit quos laudantium temporibus dolor ea
-            repellat provident impedit!
+            <h3 className="web">carisantri.id</h3>
+            Website yang menyediakan informasi terperinci dan <br />
+            terverifikasi tentang pondok pesantren di <b>Indonesia!</b>
           </p>
           <SearchBar />
           <div className="boxes">
             <div className="box">
-              <h1>16+</h1>
-              <h2>Years of Experience</h2>
+              <h1>8</h1>
+              <h2>Pondok Terdaftar</h2>
             </div>
             <div className="box">
-              <h1>200</h1>
-              <h2>Award Gained</h2>
+              <h1>200+</h1>
+              <h2>Pengunjung</h2>
             </div>
             <div className="box">
-              <h1>2000+</h1>
-              <h2>Property Ready</h2>
+              <h1>7</h1>
+              <h2>Mitra</h2>
             </div>
           </div>
         </div>
       </div>
       <div className="imgContainer">
-        <img src="/bg.png" alt="" />
+        <img src="/tes.jpg" alt="" />
       </div>
     </div>
   );

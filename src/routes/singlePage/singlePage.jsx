@@ -17,7 +17,7 @@ function SinglePage() {
                   <img src="/pin.png" alt="" />
                   <span>{singlePostData.address}</span>
                 </div>
-                <div className="price">$ {singlePostData.price}</div>
+                <div className="price">{singlePostData.price}</div>
               </div>
               <div className="user">
                 <img src={userData.img} alt="" />
@@ -30,7 +30,7 @@ function SinglePage() {
       </div>
       <div className="features">
         <div className="wrapper">
-          <p className="title">General</p>
+          <p className="title">Informasi Lebih Lanjut</p>
           <div className="listVertical">
             <div className="feature">
               <img src="/utility.png" alt="" />
@@ -74,14 +74,14 @@ function SinglePage() {
             <div className="feature">
               <img src="/school.png" alt="" />
               <div className="featureText">
-                <span>School</span>
+                <span>Sekolah</span>
                 <p>250m away</p>
               </div>
             </div>
             <div className="feature">
               <img src="/pet.png" alt="" />
               <div className="featureText">
-                <span>Bus Stop</span>
+                <span>Terminal Bus</span>
                 <p>100m away</p>
               </div>
             </div>
@@ -93,18 +93,18 @@ function SinglePage() {
               </div>
             </div>
           </div>
-          <p className="title">Location</p>
+          <p className="title">Lokasi</p>
           <div className="mapContainer">
             <Map items={[singlePostData]} />
           </div>
           <div className="buttons">
             <button>
               <img src="/chat.png" alt="" />
-              Send a Message
+              Kirim Pesan
             </button>
             <button>
               <img src="/save.png" alt="" />
-              Save the Place
+              Simpan Ke List
             </button>
           </div>
         </div>

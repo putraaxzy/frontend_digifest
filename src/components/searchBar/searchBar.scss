@@ -2,8 +2,6 @@
 
 .searchBar {
   .type {
-
-
     button {
       padding: 16px 36px;
       border: 1px solid #999;
@@ -43,7 +41,7 @@
     input {
       border: none;
       padding: 0px 10px;
-      width: 200px;
+      width: 550px;
 
       @include lg {
         padding: 0px 5px;
@@ -61,7 +59,7 @@
         }
       }
 
-      @include sm{
+      @include sm {
         width: auto;
         &:nth-child(2),
         &:nth-child(3) {
@@ -75,10 +73,10 @@
     button {
       border: none;
       cursor: pointer;
-      background-color: #fece51;
+      background-color: #009788;
       flex: 1;
 
-      @include sm{
+      @include sm {
         padding: 10px;
       }
 
