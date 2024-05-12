@@ -23,7 +23,7 @@ function App() {
           element: <ListPage />,
         },
         {
-          path: "/:id",
+          path: "/:ids",
           element: <SinglePage />,
         },
         {
