@@ -38,24 +38,24 @@ function SinglePage() {
           <p className="title">Informasi Lebih Lanjut</p>
           <div className="listVertical">
             <div className="feature">
-              <img src="/utility.png" alt="" />
+              <img src="/usr.png" alt="" />
               <div className="featureText">
-                <span>Utilities</span>
-                <p>Renter is responsible</p>
+                <span>Guru</span>
+                <p>800 guru aktif</p>
               </div>
             </div>
             <div className="feature">
-              <img src="/pet.png" alt="" />
+              <img src="/ekstra.png" alt="" />
               <div className="featureText">
-                <span>Pet Policy</span>
-                <p>Pets Allowed</p>
+                <span>Ekstrakulikuler</span>
+                <p>Total lebih dari 40+</p>
               </div>
             </div>
             <div className="feature">
               <img src="/fee.png" alt="" />
               <div className="featureText">
-                <span>Property Fees</span>
-                <p>Must have 3x the rent in total household income</p>
+                <span>Biayaya Tes Masuk</span>
+                <p>Rp.15.000 - Rp. 30.000</p>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ function SinglePage() {
             </div>
             <div className="size">
               <img src="/usr.png" alt="" />
-              <span>39k santri</span>
+              <span>13k santri</span>
             </div>
           </div>
           <p className="title">Nearby Places</p>
@@ -84,16 +84,16 @@ function SinglePage() {
               </div>
             </div>
             <div className="feature">
-              <img src="/pet.png" alt="" />
+              <img src="/bus.png" alt="" />
               <div className="featureText">
                 <span>Terminal Bus</span>
                 <p>100m away</p>
               </div>
             </div>
             <div className="feature">
-              <img src="/fee.png" alt="" />
+              <img src="/hospital.png" alt="" />
               <div className="featureText">
-                <span>Restaurant</span>
+                <span>Rumah Sakit</span>
                 <p>200m away</p>
               </div>
             </div>

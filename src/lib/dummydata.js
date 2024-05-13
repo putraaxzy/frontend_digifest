@@ -106,8 +106,8 @@ export const singlePostData = [
       "https://akcdn.detik.net.id/community/media/visual/2021/05/23/santri-ponpes-lirboyo_169.jpeg?w=700&q=90",
       "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrkQHu1hOLEMyHRtAVFedm6UJBUmqfqWmKQ6-CniQHu7iWbPzaBYLJPa66ntWgg4gVfLwdkoGgKwEmQPze7dEe7DvVuwEI_3CbzdB5K9SPHBZFh-MmkdfgCzjiDuV-JDKzrS5COx1OVxk/s1600/242.JPG",
     ],
-    bedRooms: 2,
-    bathroom: 1,
+    bedRooms: 1,
+    bathroom: 2,
     size: 861,
     latitude: -7.818997,
     longitude: 112.008208,
@@ -118,6 +118,10 @@ export const singlePostData = [
     restaurant: "50m away",
     description:
       "Pondok Pesantren Lirboyo didirikan pada tahun 1910 M oleh K.H. Abdul Karim yang saat ini berada di bawah pimpinan salah satu cucunya, K.H. M. Anwar Manshur. Pondok pesantren yang terletak di Kelurahan Lirboyo, Kecamatan Mojoroto, Kota Kediri ini berafiliasi kuat kepada organisasi Nahdlatul Ulama dengan tetap berdiri sebagai pesantren salaf, yakni pesantren yang menekankan pada kemampuan membaca dan mengkaji kitab-kitab salaf (kitab kuning) sebagai sarana pembelajaran sehari-hari. Pesantren ini menjadi salah satu pesantren terbesar di Indonesia dan menjadi salah satu pusat studi Islam sejak puluhan tahun sebelum kemerdekaan Indonesia. Bahkan di peristiwa-peristiwa kemerdekaan, Pesantren Lirboyo selalu terlibat dalam pergerakan perjuangan dengan mengirimkan santri-santrinya ke medan perang, seperti Pertempuran 10 November di Surabaya.",
+    guru: "",
+    ëkstrakuliluler: "",
+    biaya: "",
+    santri: "",
   },
   {
     id: 2,
@@ -137,7 +141,7 @@ export const singlePostData = [
     city: "Ponorogo",
     address:
       "Putra I, Gontor 1, Gontor, Kec. Ponorogo, Kabupaten Ponorogo, Jawa Timur 63472",
-    school: "250m away",
+    school: "100m away",
     bus: "100m away",
     restaurant: "50m away",
     description:
