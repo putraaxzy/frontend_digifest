@@ -15,7 +15,7 @@ const DonationPage = () => {
         </div>
         <div className="donation-option">
           <h2>Program B</h2>
-          <p>Donasi Pengembangan Infrastructure</p>
+          <p>Donasi Verifikasi dan Perizinan</p>
           <button>Donasi Sekarang</button>
         </div>
       </div>
