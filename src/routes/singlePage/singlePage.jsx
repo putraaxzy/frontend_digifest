@@ -59,19 +59,19 @@ function SinglePage() {
               </div>
             </div>
           </div>
-          <p className="title">Sizes</p>
+          <p className="title">Fasilitas</p>
           <div className="sizes">
             <div className="size">
-              <img src="/size.png" alt="" />
-              <span>80 sqft</span>
+              <img src="/mkn.png" alt="" />
+              <span>4x Makan sehari</span>
             </div>
             <div className="size">
               <img src="/bed.png" alt="" />
-              <span>2 beds</span>
+              <span>4 kasur</span>
             </div>
             <div className="size">
-              <img src="/usr.png" alt="" />
-              <span>13k santri</span>
+              <img src="/kmr.png" alt="" />
+              <span>30 Kamar mandi</span>
             </div>
           </div>
           <p className="title">Nearby Places</p>
