@@ -24,7 +24,7 @@ function Card({ item }) {
             </div>
             <div className="feature">
               <img src="/cum.png" alt="" />
-              <span>{item.bathroom} bathroom</span>
+              <span> Terverifikasi</span>
             </div>
           </div>
           <div className="icons">
