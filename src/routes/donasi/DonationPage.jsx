@@ -18,9 +18,6 @@ const DonationPage = () => {
           <p>Deskripsi Program B</p>
           <button>Donasi Sekarang</button>
         </div>
-        <div className="logo">
-          <img src="/tes.jpg" />
-        </div>
       </div>
     </div>
   );
