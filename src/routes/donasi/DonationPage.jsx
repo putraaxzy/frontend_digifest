@@ -10,12 +10,12 @@ const DonationPage = () => {
         {/* Daftar program donasi */}
         <div className="donation-option">
           <h2>Program A</h2>
-          <p>Donasi Pengembangan Platform</p>
+          <p>Donasi untuk pengembangan Platform</p>
           <button>Donasi Sekarang</button>
         </div>
         <div className="donation-option">
           <h2>Program B</h2>
-          <p>Donasi Verifikasi dan Perizinan</p>
+          <p>Donasi untuk Verifikasi dan Perizinan</p>
           <button>Donasi Sekarang</button>
         </div>
       </div>
